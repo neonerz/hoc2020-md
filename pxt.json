@@ -1,0 +1,24 @@
+{
+    "name": "minecraft-hoc2020-md",
+    "version": "0.1.0",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "README.md",
+        "ball.md",
+        "beets.md",
+        "farming.md",
+        "fishing.md",
+        "rails.md",
+        "ravager.md",
+        "t1.md",
+        "t2.md"
+
+    ],
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
