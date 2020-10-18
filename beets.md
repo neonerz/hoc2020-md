@@ -1,8 +1,8 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @flyoutOnly true
-### @hideIteration true 
+### @flyoutOnly 1
+### @hideIteration 1 
 ### @explicitHints 1
 
 # Protect the beets
@@ -30,9 +30,4 @@ player.onChat("fox", function () {
         agent.place(LEFT)
     }
 })
-```
-```template
-
-```
-```package
 ```

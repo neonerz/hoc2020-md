@@ -1,8 +1,8 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @flyoutOnly true
-### @hideIteration true
+### @flyoutOnly 1
+### @hideIteration 1
 ### @explicitHints 1
 
 # Lay down some rails
@@ -21,8 +21,4 @@ player.onChat("rails", function () {
         agent.move(DOWN, 1)
     }
 })
-```
-```template
-```
-```package
 ```

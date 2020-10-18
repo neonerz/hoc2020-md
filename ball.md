@@ -1,8 +1,8 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @flyoutOnly true
-### @hideIteration true
+### @flyoutOnly 1
+### @hideIteration 1
 ### @explicitHints 1
 
 # Get the ball
@@ -24,8 +24,4 @@ player.onChat("witch", function () {
     agent.move(UP, 2)
     agent.interact(FORWARD)
 })
-```
-```template
-```
-```package
 ```
