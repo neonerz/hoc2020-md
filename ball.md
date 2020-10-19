@@ -8,7 +8,7 @@
 # Get the ball
 
 ## Step 1
-Have the Agent go up the wall pressing each button along the way.
+Have the Agent go up the wall pressing each button along the way . 
 
 ```ghost
 player.onChat("witch", function () {
