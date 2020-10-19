@@ -15,8 +15,11 @@
         "ravager.md",
         "t1.md",
         "t2.md"
-
     ],
+    "targetVersions": {
+        "target": "1.5.43",
+        "targetId": "minecraft"
+    },
     "supportedTargets": [
         "minecraft"
     ],
