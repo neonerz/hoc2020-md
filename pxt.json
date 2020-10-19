@@ -1,9 +1,9 @@
 {
-    "name": "minecraft-hoc2020-md",
-    "version": "0.3.0",
+    "name": "hoc2020-md",
     "dependencies": {
         "core": "*",
-        "builder": "*"
+        "builder": "*",
+        "minecraft-hoc2020-md": "github:rewrite-media/hoc2020-md#v0.3.0"
     },
     "files": [
         "README.md",
@@ -14,9 +14,14 @@
         "rails.md",
         "ravager.md",
         "t1.md",
-        "t2.md"
-
+        "t2.md",
+        "main.blocks",
+        "main.ts"
     ],
+    "targetVersions": {
+        "target": "1.5.43",
+        "targetId": "minecraft"
+    },
     "supportedTargets": [
         "minecraft"
     ],
