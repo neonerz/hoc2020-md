@@ -14,7 +14,8 @@
         "rails.md",
         "ravager.md",
         "t1.md",
-        "t2.md"
+        "t2.md",
+        "tutorial-info-cache.json"
     ],
     "targetVersions": {
         "target": "1.5.43",
