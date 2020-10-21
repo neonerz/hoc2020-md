@@ -12,7 +12,7 @@ The old lady's elevator isn't working. It looks like the levers are stuck. Have 
     hoc2020.flipLever()
 ```
 ```explicitHints
-This is one flipLever test
+Use the ``||agent:agent move||`` block to go **up** the wall and use ``||hoc2020:flip lever||`` to try and flip the lever.
 ```
 ```package
 hoc2020-ts=github:neonerz/hoc2020-ts
