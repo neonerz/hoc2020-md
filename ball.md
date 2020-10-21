@@ -15,5 +15,5 @@ The old lady's elevator isn't working. It looks like the levers are stuck. Have 
 This is one flipLever test
 ```
 ```package
-minecraft-hoc2020-md=github:neonerz/hoc2020-md
+hoc2020-ts=github:neonerz/hoc2020-ts
 ```
