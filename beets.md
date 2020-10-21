@@ -8,9 +8,10 @@
 Something keeps getting into the garden and taking beets. Have the Agent build a fence around the farm to keep out whatever is doing it.
 
 #### ~ tutorialhint 
-Use the ``||hoc2020:place fence||`` block to move forward while placing fences behind.
+Use the ``||hoc2020:place fence||`` block to move forward while placing fences behind. TEST
 
 ```ghost
+    agent.turn()
     hoc2020.buildFence(JungleFence, 1)
 ```
 ```template
