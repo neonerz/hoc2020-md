@@ -1,6 +1,3 @@
-### @codeStart players set @s makecode 0
-### @codeStop players set @s makecode 1
-
 ### @flyoutOnly true
 ### @hideIteration true
 ### @explicitHints true
@@ -13,17 +10,20 @@ The old lady's elevator isn't working. It looks like the levers are stuck. Have 
 ```ghost
 player.onChat("witch", function () {
     agent.move(UP, 1)
-    hoc2020.flipLever
+    hoc2020.flipLever()
     agent.move(RIGHT, 3)
     agent.move(UP, 2)
-    hoc2020.flipLever
+    hoc2020.flipLever()
     agent.move(LEFT, 3)
     agent.move(UP, 1)
-    hoc2020.flipLever
+    hoc2020.flipLever()
     agent.move(RIGHT, 3)
     agent.move(UP, 2)
-    hoc2020.flipLever
+    hoc2020.flipLever()
 })
+```
+```template
+\\
 ```
 ```explicitHints
 This is one flipLever test
