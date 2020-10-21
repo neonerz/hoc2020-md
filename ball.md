@@ -25,3 +25,6 @@ player.onChat("witch", function () {
     agent.interact(FORWARD)
 })
 ```
+```explicitHints
+This is one
+```
