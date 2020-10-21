@@ -1,30 +1,30 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @flyoutOnly 1
-### @hideIteration 1
-### @explicitHints 1
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 
 # Get the ball
 
 ## Step 1
-Have the Agent go up the wall pressing each button along the way. 
+The old lady's elevator isn't working. It looks like the levers are stuck. Have the Agent use it's strength to flip all the levers so she can bring down the children's ball.  ``||hoc2020:flipLever||``
 
 ```ghost
 player.onChat("witch", function () {
     agent.move(UP, 1)
-    agent.interact(FORWARD)
+    hoc2020.flipLever
     agent.move(RIGHT, 3)
     agent.move(UP, 2)
-    agent.interact(FORWARD)
+    hoc2020.flipLever
     agent.move(LEFT, 3)
     agent.move(UP, 1)
-    agent.interact(FORWARD)
+    hoc2020.flipLever
     agent.move(RIGHT, 3)
     agent.move(UP, 2)
-    agent.interact(FORWARD)
+    hoc2020.flipLever
 })
 ```
 ```explicitHints
-This is one
+This is one flipLever test
 ```

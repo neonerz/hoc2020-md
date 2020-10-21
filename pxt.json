@@ -15,7 +15,8 @@
         "ravager.md",
         "t1.md",
         "t2.md",
-        "tutorial-info-cache.json"
+        "tutorial-info-cache.json",
+        "custom.ts"
     ],
     "targetVersions": {
         "target": "1.5.44",
