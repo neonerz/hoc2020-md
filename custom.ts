@@ -1,16 +1,4 @@
-// Add your code here
-
-enum Direction {
-    //% block="forward"
-    Forward,
-    //% block="back"
-    Back,
-    //% block="left"
-    Left,
-    //% block="right"
-    Right
-}
-//%  block="HOC 2020" weight=200 color=#00a513 icon=""
+//%  block="HOC 2020" weight=200 color=#00a513
 namespace hoc2020 {
 
     /**
