@@ -28,3 +28,6 @@ player.onChat("witch", function () {
 ```explicitHints
 This is one flipLever test
 ```
+```package
+minecraft-hoc2020-md=github:neonerz/hoc2020-md
+```
