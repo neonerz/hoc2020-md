@@ -1,40 +1,22 @@
-### @codeStart players set @s makecode 0
-### @codeStop players set @s makecode 1
-
-### @flyoutOnly 1
-### @hideIteration 1
-### @explicitHints 1
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 
 # Teach Farming
 
 ## Step 1
-Replace all the gravel with dirt and till the dirt into soil.
+The villagers agreed to teach the illagers how to farm, but first they need farmland setup. Have the Agent replace the gravel pad with farmland.
+
+#### ~ tutorialhint 
+Use the ``||hoc2020:prepare soil||`` block to move forward while replacing the gravel with tilled soil.
 
 ```ghost
-player.onChat("teach_farm", function () {
-    for (let index = 0; index < 3; index++) {
-        for (let index = 0; index < 10; index++) {
-            agent.destroy(DOWN)
-            agent.setItem(DIRT, 1, 1)
-            agent.place(DOWN)
-            agent.move(FORWARD, 1)
-            agent.till(BACK)
-        }
-        agent.move(RIGHT, 1)
-        agent.turn(RIGHT_TURN)
-        agent.turn(RIGHT_TURN)
-        agent.move(FORWARD, 1)
-        for (let index = 0; index < 10; index++) {
-            agent.destroy(DOWN)
-            agent.setItem(DIRT, 1, 1)
-            agent.place(DOWN)
-            agent.move(FORWARD, 1)
-            agent.till(BACK)
-        }
-        agent.move(LEFT, 1)
-        agent.turn(LEFT_TURN)
-        agent.turn(LEFT_TURN)
-        agent.move(FORWARD, 1)
-    }
-})
+    hoc2020.tillSoil(1)
+    hoc2020.turnAgent()  
+```
+```template
+\\
+```
+```package
+hoc2020-ts=github:neonerz/hoc2020-ts
 ```

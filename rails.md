@@ -1,24 +1,22 @@
-### @codeStart players set @s makecode 0
-### @codeStop players set @s makecode 1
-
-### @flyoutOnly 1
-### @hideIteration 1
-### @explicitHints 1
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 
 # Lay down some rails
 
 ## Step 1
-Connect the two villages using minecart rails.
+Create an easier way to get between both towns by placing minecart rails through the tunnel.
+
+#### ~ tutorialhint 
+Use the ``||hoc2020:place rail||`` block to place a rail under the Agent and then move forward. Don't forget to ``||hoc2020:move||`` down after each section.
 
 ```ghost
-player.onChat("rails", function () {
-    for (let index = 0; index < 6; index++) {
-        for (let index = 0; index < 4; index++) {
-            agent.setItem(RAIL, 1, 1)
-            agent.place(DOWN)
-            agent.move(FORWARD, 1)
-        }
-        agent.move(DOWN, 1)
-    }
-})
+    hoc2020.placeRails()
+    hoc2020.moveAgent()   
+```
+```template
+\\
+```
+```package
+hoc2020-ts=github:neonerz/hoc2020-ts
 ```

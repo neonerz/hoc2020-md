@@ -1,29 +1,22 @@
-### @codeStart players set @s makecode 0
-### @codeStop players set @s makecode 1
-
-### @flyoutOnly 1
-### @hideIteration 1 
-### @explicitHints 1
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 
 # Teach fishing
 
 ## Step 1
-Build the outline of a dock that's 6 blocks long and 4 blocks wide.
+Build the frame of a dock that's 6 blocks long and 4 blocks wide.
+
+#### ~ tutorialhint 
+Use the ``||hoc2020:move and place||`` block to move forward and then place a wood plank under the Agent.
 
 ```ghost
-player.onChat("teach_fish", function () {
-    agent.setItem(PLANKS_BIRCH, 64, 1)
-    for (let index = 0; index < 6; index++) {
-        agent.move(FORWARD, 1)
-        agent.place(DOWN)
-    }
-    for (let index = 0; index < 3; index++) {
-        agent.move(RIGHT, 1)
-        agent.place(DOWN)
-    }
-    for (let index = 0; index < 6; index++) {
-        agent.move(BACK, 1)
-        agent.place(DOWN)
-    }
-})
+    hoc2020.placePlanks()
+    hoc2020.turnAgent()  
+```
+```template
+\\
+```
+```package
+hoc2020-ts=github:neonerz/hoc2020-ts
 ```
