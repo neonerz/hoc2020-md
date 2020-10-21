@@ -9,7 +9,7 @@ The old lady's elevator isn't working. It looks like the levers are stuck. Have 
 
 
 #### ~ tutorialhint 
-Use the ``||agent:agent move||`` block to go up the wall and use ``||hoc2020:flip lever||`` to flip the lever.
+Use the ``||agent:agent move||`` block to climb **up** the wall and use ``||hoc2020:flip lever||`` to flip the lever.
 
 ```ghost
     agent.move(UP, 1)
