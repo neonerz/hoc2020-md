@@ -12,7 +12,7 @@ Use the ``||hoc2020:place fence||`` block to move forward while placing fences b
 
 ```ghost
     agent.turn()
-    hoc2020.buildFence(JungleFence, 1)
+    hoc2020.buildFence()
 ```
 ```template
 \\
