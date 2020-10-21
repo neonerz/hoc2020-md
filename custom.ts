@@ -17,7 +17,7 @@ namespace hoc2020 {
      * Agent Interact Forward
      */
     //% block="Flip Lever"
-    export function flipLever(): void {
+    export function flipLever() {
         agent.interact(FORWARD)
     }  
 
