@@ -19,7 +19,6 @@ Use the ``||agent:agent move||`` block to climb **up** the wall and use ``||hoc2
 \\
 ```
 ```explicitHints
-explicit
 ```
 ```package
 hoc2020-ts=github:neonerz/hoc2020-ts
