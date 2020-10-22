@@ -18,5 +18,5 @@ Use the ``||hoc2020:place rail||`` block to place a rail under the Agent and the
 \\
 ```
 ```package
-hoc2020-ts=github:neonerz/hoc2020-ts
+hoc2020-ts=github:rewrite-media/hoc2020-ts
 ```
