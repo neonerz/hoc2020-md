@@ -2,7 +2,7 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Introduct the ravager
+# Introduce the ravager.
 
 ## Step 1
 The villagers are scared of ravagers. Help them get over their bias by allowing them to meet the ravager. Use the Agent to lead it to each villager with an arrow above their head.
